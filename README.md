@@ -27,18 +27,6 @@ This is the **FastAPI** backend for the Podcast App. It handles API requests, da
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/podcast-app.git
+   git clone https://github.com/hadigouas/podcast-app.git
    cd podcast-app/backend
-###Create a virtual environment:
 
-python -m venv env
-source env/bin/activate  # On Windows: .\env\Scripts\activate
-###Install dependencies:
-
-pip install -r requirements.txt
-###Configure the database in config.py:
-
-DATABASE_URL = "postgresql://username:password@localhost:5432/podcast_app"
-###Run the server:
-
-uvicorn main:app --reload
